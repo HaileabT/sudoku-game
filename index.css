@@ -9,8 +9,16 @@
     display: grid;
     width: 450px;
     height: 450px;
-    grid-template-columns: repeat(9, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    border:solid black;
+    border-width: 3px;
 
+}
+.big-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: solid black;
+    border-width: 2px;
 }
 
 .box{
