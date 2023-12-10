@@ -10,7 +10,7 @@
     width: 450px;
     height: 450px;
     grid-template-columns: repeat(3, 1fr);
-    border:solid rgb(200, 0, 255);
+    border:solid black;
     border-width: 3px;
 
 }
