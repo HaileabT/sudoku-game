@@ -13,13 +13,5 @@ for (let i = 0; i<81; i++){
                 box[i].value = box[i].value.slice(0, 1);
             }
             gameArray[Math.floor(i / 9)][i%9] = box[i].value;
-            let counter = 0;
-            for (let j = 0; j<9;j++){
-                for (let k = 0; k<9; k++){
-                    gameArray[j][k] = k;
-                    box[counter].value = gameArray[j][k];
-                    counter++;
-                }
-            }
         })
 }
